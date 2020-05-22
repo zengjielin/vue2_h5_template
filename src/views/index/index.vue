@@ -1,17 +1,12 @@
 <template>
   <div id="index">
-   
+      index view
   </div>
 </template>
 
 <script>
-export default {
-  
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
-#index {
- 
-}
 </style>

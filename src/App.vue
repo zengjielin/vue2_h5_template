@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import { isBankAbcClient } from "@/util/isBankAbcClient";
+import { isBankAbcClient } from "@/util/check-abc-client";
 export default {
   data() {
     return {
