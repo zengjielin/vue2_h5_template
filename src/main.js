@@ -8,16 +8,17 @@ import "@/vant"
 import VueQrcode from '@chenfengyuan/vue-qrcode';
 import VConsole from 'vconsole'
 
+import  global  from '@/global'
 import '@/axios_config'
 import 'lib-flexible/flexible'
 import "@/assets/css/base.css"
 
 
-if (process.env.ENV_CONFIG === 'dev' || process.env.ENV_CONFIG === 'test') {
-  new VConsole()
-}
+// if (process.env.ENV_CONFIG === 'dev' || process.env.ENV_CONFIG === 'test') {
+//   new VConsole()
+// }
 Vue.component(VueQrcode.name, VueQrcode);
-
+Vue.use(global)
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
